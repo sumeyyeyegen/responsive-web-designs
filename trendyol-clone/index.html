@@ -10,20 +10,23 @@
 </head>
 
 <body>
-  <header>
-    <img src="./images/ty-cumhuriyet-100-logo.svg" alt="">
-    <div class="input-group">
-<input placeholder="Aradığınız ürün, kategori veya markayı yazınız..." type="text">
-    <i class="bi bi-search"></i>
-    </div>
-    <div class="icons">
-      <button><i class="bi bi-person"></i> Hesabım</button>
-      <button><i class="bi bi-heart"></i>Favorilerim</button>
-      <button><i class="bi bi-basket"></i>Sepetim</button>
-    </div>
-  </header>
-  <div class="categories">
-      <li>Kadın</li>
+  <div id="container">
+
+    <header>
+      <img src="./images/ty-cumhuriyet-100-logo.svg" alt="">
+      <div class="input-group">
+        <input placeholder="Aradığınız ürün, kategori veya markayı yazınız..." type="text">
+        <i class="bi bi-search"></i>
+      </div>
+      <div class="icons">
+        <button><i class="bi bi-person"></i> Hesabım</button>
+        <button><i class="bi bi-heart"></i>Favorilerim</button>
+        <button><i class="bi bi-basket"></i>Sepetim</button>
+      </div>
+    </header>
+
+    <div class="categories">
+      <li class="active">Kadın</li>
       <li>Erkek</li>
       <li>Anne&Çocuk</li>
       <li>Ev& Yaşam</li>
@@ -34,43 +37,61 @@
       <li>Spor&Outdoor</li>
       <li>Çok Satanlar <span class="new">Yeni</span></li>
       <li>Flaş Ürünler<span class="new">Yeni</span></li>
-  </div>
-  <hr>
+    </div>
 
-  <section class="brands">
-    <div class="circled-item">
-      <img src="https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2023/2/14/En_Cok_Satanlar_202302142041.png" loading="lazy" alt="">
-      <span>Sen de Al!</span>
-    </div>
-    <div class="circled-item">
-      <img src="https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2023/2/14/Senin_Icin_Sectik_202302142041.png" loading="lazy" alt="">
-      <span>Sana Özel</span>
-    </div>
-    <div class="circled-item">
-      <img src="https://cdn.dsmcdn.com/mnresize/200/200/mnresize/200/200/marketing/datascience/automation/2023/10/27/Gazze_Web_Circlebanner_202310271210.png" loading="lazy" alt="">
-      <span>Dijital destek kartları</span>
-    </div>
-    <div class="circled-item">
-      <img src="https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2023/7/26/Widget_202307261451.png" loading="lazy" alt="">
-      <span>Kredi Kartı</span>
-    </div>
-    <div class="circled-item">
-      <img src="https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2023/2/14/Senin_Icin_Sectik_202302142041.png" loading="lazy" alt="">
-      <span>Kurumsal</span>
-    </div>
-    <div class="circled-item">
-      <img src="https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2023/2/14/Senin_Icin_Sectik_202302142041.png" loading="lazy" alt="">
-      <span>Şanslı çekiliş</span>
-    </div>
-    <div class="circled-item">
-      <img src="https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2023/2/14/Senin_Icin_Sectik_202302142041.png" loading="lazy" alt="">
-      <span>krediler</span>
-    </div>
-    <div class="circled-item">
-      <img src="https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2023/2/14/Senin_Icin_Sectik_202302142041.png" loading="lazy" alt="">
-      <span>apple</span>
-    </div>
-    <div class="circled-item">
+    <hr>
+
+    <section class="brands">
+      <i class="bi bi-chevron-compact-left direction-key"></i>
+      <div class="circled-item">
+        <img
+          src="https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2023/2/14/En_Cok_Satanlar_202302142041.png"
+          class="brand-img" loading="lazy" alt="">
+        <span>Sen de Al!</span>
+      </div>
+      <div class="circled-item">
+        <img
+          src="https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2023/2/14/Senin_Icin_Sectik_202302142041.png"
+          class="brand-img" loading="lazy" alt="">
+        <span>Sana Özel</span>
+      </div>
+      <div class="circled-item">
+        <img
+          src="https://cdn.dsmcdn.com/mnresize/200/200/mnresize/200/200/marketing/datascience/automation/2023/10/27/Gazze_Web_Circlebanner_202310271210.png"
+          class="brand-img" loading="lazy" alt="">
+        <span>Dijital destek kartları</span>
+      </div>
+      <div class="circled-item">
+        <img
+          src="https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2023/7/26/Widget_202307261451.png"
+          class="brand-img" loading="lazy" alt="">
+        <span>Kredi Kartı</span>
+      </div>
+      <div class="circled-item">
+        <img
+          src="https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2023/2/14/Senin_Icin_Sectik_202302142041.png"
+          class="brand-img" loading="lazy" alt="">
+        <span>Kurumsal</span>
+      </div>
+      <div class="circled-item">
+        <img
+          src="https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2023/2/14/Senin_Icin_Sectik_202302142041.png"
+          class="brand-img" loading="lazy" alt="">
+        <span>Şanslı çekiliş</span>
+      </div>
+      <div class="circled-item">
+        <img
+          src="https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2023/2/14/Senin_Icin_Sectik_202302142041.png"
+          class="brand-img" loading="lazy" alt="">
+        <span>krediler</span>
+      </div>
+      <div class="circled-item">
+        <img
+          src="https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2023/2/14/Senin_Icin_Sectik_202302142041.png"
+          class="brand-img" loading="lazy" alt="">
+        <span>apple</span>
+      </div>
+      <!-- <div class="circled-item">
       <img src="https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2023/2/14/Senin_Icin_Sectik_202302142041.png" loading="lazy" alt="">
       <span>Pull & Bear</span>
     </div>
@@ -85,9 +106,453 @@
     <div class="circled-item">
       <img src="https://cdn.dsmcdn.com/mnresize/200/200/marketing/datascience/automation/2023/2/14/Senin_Icin_Sectik_202302142041.png" loading="lazy" alt="">
       <span>Samsung</span>
+    </div> -->
+      <i class="bi bi-chevron-compact-right direction-key"></i>
+
+    </section>
+
+    <div class="gif">
+      <img src="https://cdn.dsmcdn.com/marketing/datascience/automation/2023/12/27/WebHomepage_202312271302.gif" alt="">
     </div>
 
-  </section>
+    <div class="titles">
+      <a href="/sr?fl=sepettekiurunler">
+        <img class="p-card-img "
+          src="https://cdn.dsmcdn.com/mnresize/500/500/marketing/datascience/automation/2023/4/18/Sepet_202304181225.png">
+      </a>
+      <a href="/sr?fl=encokonecikanurunler">
+        <img class="p-card-img "
+          src="https://cdn.dsmcdn.com/mnresize/500/500/marketing/datascience/automation/2023/4/18/Onecikan_202304181225.png">
+      </a>
+      <a href="/flas-indirimler">
+        <img class="p-card-img "
+          src="https://cdn.dsmcdn.com/mnresize/500/500/marketing/datascience/automation/2023/4/18/Flash_202304181225.png">
+      </a>
+    </div>
+
+    <section class="bestseller product-cards">
+      <h2>Çok Satanlar</h2>
+      <div class="row">
+        <div class="product-card">
+          <img src="https://cdn.dsmcdn.com/ty639/product/media/images/20221212/18/235058945/646895416/1/1_org.jpg"
+            alt="">
+          <div class="info">
+            <div class="brand">Brand</div>
+            <p class="desc">Yılbaşı Çorabı 4'lü</p>
+          </div>
+          <div class="price">35$</div>
+        </div>
+        <div class="product-card">
+          <img
+            src="https://cdn.dsmcdn.com/mnresize/400/-/ty983/product/media/images/20230808/19/401323368/61116150/1/1_org_zoom.jpg"
+            alt="">
+          <div class="info">
+            <div class="brand">Bargello</div>
+            <p class="desc">12 Oriental Edp 50 ml Kadın Parfüm</p>
+          </div>
+          <div class="price">35$</div>
+        </div>
+        <div class="product-card">
+          <img
+            src="https://cdn.dsmcdn.com/ty987/product/media/images/prod/SPM/PIM/20230822/10/04be3e53-506c-3146-a3e0-2f6050ba47ce/1_org.jpg"
+            alt="">
+          <div class="info">
+            <div class="brand">Stradivarius</div>
+            <p class="desc">Büzgülü Viskoz t-shirt</p>
+          </div>
+          <div class="price">210 TL</div>
+        </div>
+        <div class="product-card">
+          <img src="https://cdn.dsmcdn.com/ty639/product/media/images/20221212/18/235058945/646895416/1/1_org.jpg"
+            alt="">
+          <div class="info">
+            <div class="brand">Brand</div>
+            <p class="desc">Yılbaşı Çorabı 4'lü</p>
+          </div>
+          <div class="price">35$</div>
+        </div>
+        <div class="product-card">
+          <img src="https://cdn.dsmcdn.com/ty639/product/media/images/20221212/18/235058945/646895416/1/1_org.jpg"
+            alt="">
+          <div class="info">
+            <div class="brand">Brand</div>
+            <p class="desc">Yılbaşı Çorabı 4'lü</p>
+          </div>
+          <div class="price">35$</div>
+        </div>
+        <div class="product-card">
+          <img src="https://cdn.dsmcdn.com/ty639/product/media/images/20221212/18/235058945/646895416/1/1_org.jpg"
+            alt="">
+          <div class="info">
+            <div class="brand">Brand</div>
+            <p class="desc">Yılbaşı Çorabı 4'lü</p>
+          </div>
+          <div class="price">35$</div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="campaigns-container">
+      <a class="campaign-box">
+        <span class="image-container">
+          <img src="https://cdn.dsmcdn.com/ty1111/pimWidgetApi/mobile_20231229115849_2362408KadinMobile202312291205.jpg"
+            alt="">
+        </span>
+        <summary class="campaign-summary">
+          <span class="name">Name</span>
+          <span class="hover-text">
+            Alışverişe başla
+            <i class="bi bi-chevron-compact-right"></i>
+          </span>
+        </summary>
+      </a>
+      <a class="campaign-box">
+        <span class="image-container">
+          <img src="https://cdn.dsmcdn.com/ty1111/pimWidgetApi/mobile_20231229115849_2362408KadinMobile202312291205.jpg"
+            alt="">
+        </span>
+        <summary class="campaign-summary">
+          <span class="name">Name</span>
+          <span class="hover-text">
+            Alışverişe başla
+            <i class="bi bi-chevron-compact-right"></i>
+          </span>
+        </summary>
+      </a>
+      <a class="campaign-box">
+        <span class="image-container">
+          <img src="https://cdn.dsmcdn.com/ty1119/pimWidgetApi/mobile_20240105114901_2423142KadinMobile202401051302.jpg"
+            alt="">
+        </span>
+        <summary class="campaign-summary">
+          <span class="name">Name</span>
+          <span class="hover-text">
+            Alışverişe başla
+            <i class="bi bi-chevron-compact-right"></i>
+          </span>
+        </summary>
+      </a>
+      <a class="campaign-box">
+        <span class="image-container">
+          <img src="https://cdn.dsmcdn.com/ty1111/pimWidgetApi/mobile_20231229115849_2362408KadinMobile202312291205.jpg"
+            alt="">
+        </span>
+        <summary class="campaign-summary">
+          <span class="name">Name</span>
+          <span class="hover-text">
+            Alışverişe başla
+            <i class="bi bi-chevron-compact-right"></i>
+          </span>
+        </summary>
+      </a>
+      <a class="campaign-box">
+        <span class="image-container">
+          <img src="https://cdn.dsmcdn.com/ty1110/pimWidgetApi/mobile_20231229102552_2331032KadinMobile202312291202.jpg"
+            alt="">
+        </span>
+        <summary class="campaign-summary">
+          <span class="name">Name</span>
+          <span class="hover-text">
+            Alışverişe başla
+            <i class="bi bi-chevron-compact-right"></i>
+          </span>
+        </summary>
+      </a>
+      <a class="campaign-box">
+        <span class="image-container">
+          <img src="https://cdn.dsmcdn.com/ty1118/pimWidgetApi/mobile_20240102100811_2359296KadinMobile202312291801.jpg"
+            alt="">
+        </span>
+        <summary class="campaign-summary">
+          <span class="name">Name</span>
+          <span class="hover-text">
+            Alışverişe başla
+            <i class="bi bi-chevron-compact-right"></i>
+          </span>
+        </summary>
+      </a>
+      <a class="campaign-box">
+        <span class="image-container">
+          <img src="https://cdn.dsmcdn.com/ty1118/pimWidgetApi/mobile_20240102064906_2401145KadinMobile202312291205.jpg"
+            alt="">
+        </span>
+        <summary class="campaign-summary">
+          <span class="name">Name</span>
+          <span class="hover-text">
+            Alışverişe başla
+            <i class="bi bi-chevron-compact-right"></i>
+          </span>
+        </summary>
+      </a>
+      <a class="campaign-box">
+        <span class="image-container">
+          <img src="https://cdn.dsmcdn.com/ty1118/pimWidgetApi/mobile_20240102064906_2401145KadinMobile202312291205.jpg"
+            alt="">
+        </span>
+        <summary class="campaign-summary">
+          <span class="name">Name</span>
+          <span class="hover-text">
+            Alışverişe başla
+            <i class="bi bi-chevron-compact-right"></i>
+          </span>
+        </summary>
+      </a>
+      <a class="campaign-box">
+        <span class="image-container">
+          <img src="https://cdn.dsmcdn.com/ty1118/pimWidgetApi/mobile_20240102064906_2401145KadinMobile202312291205.jpg"
+            alt="">
+        </span>
+        <summary class="campaign-summary">
+          <span class="name">Name</span>
+          <span class="hover-text">
+            Alışverişe başla
+            <i class="bi bi-chevron-compact-right"></i>
+          </span>
+        </summary>
+      </a>
+    </div>
+
+    <div class="tags-container">
+      <h2>Bunlar da ilginizi çekebilir</h2>
+      <div class="tags">
+        <a href="">iPhone 15</a>
+        <a href="">Flo</a>
+        <a href="">Watsons</a>
+        <a href="">GS Store</a>
+        <a href="">Airfryer</a>
+        <a href="">Dyson Süpürge</a>
+        <a href="">Kuzine Soba</a>
+        <a href="">Zara</a>
+        <a href="">Gant</a>
+        <a href="">Nike Air Force</a>
+        <a href="">Pandora</a>
+        <a href="">iPhone 15</a>
+        <a href="">iPhone 15</a>
+        <a href="">iPhone 15</a>
+      </div>
+    </div>
+
+    <div class="content">
+      <div>
+        <h2>Erkeklere Özel En Yeni Ürünler Uygun Fiyatlarla Trendyol’da!
+        </h2>
+        <p>Mevsim geçişlerinde tarzınıza erkek mont modelleri ile ufak dokunuşlar yapabilirsiniz. Kış koleksiyonun
+          vazgeçilmezi bu parçaların mevsimlik ve yazlık alternatifleri yanında kürklü, astarlı ve şişme montlar da
+          vardır. Mont çeşitlerinde siyah, yeşil, bej, lacivert ve ekru renkleri öne çıkar. Yazlık ve mevsimlik bu
+          parçaları erkek tişört modelleri ile kombinleyebilirsiniz. Erkek ayakkabı çeşitlerinde sneaker, günlük
+          ayakkabı, koşu ayakkabısı, deniz ayakkabısı ile bot ve çizme modelleri bulunur. Kullanım yerine göre erkek
+          giyim için bu ayakkabılar arasından seçim yapabilirsiniz. Her mevsimin modası erkek sweatshirt V yaka,
+          kapüşonlu yaka ve bisiklet yaka ile öne çıkar. Ürünlerde siyah, lacivert, gri ve beyaz rengin yoğunluğu göze
+          çarpar. Erkek pantolon kot, kumaş, lastikli, slim fit, yüksek bel ve İtalyan kesim seçeneklerine sahiptir.
+          Klasik giyim stiline hitap eden ve kombin halde satılan ürünler bulunur. Erkek takım elbise kullanım avantajı
+          sebebiyle ilgi görür. Günlük hayatında hem şık olmak hem de rahat olmak isteyenler için farklı alternatifler
+          de bulunur. Bu alternatiflere Trendyol erkeklere özel kampanyalar ile uygun fiyata sahip olabilirsiniz.</p>
+      </div>
+      <div>
+        <h2>Erkeklere Özel En Yeni Ürünler Uygun Fiyatlarla Trendyol’da!
+        </h2>
+        <p>Mevsim geçişlerinde tarzınıza erkek mont modelleri ile ufak dokunuşlar yapabilirsiniz. Kış koleksiyonun
+          vazgeçilmezi bu parçaların mevsimlik ve yazlık alternatifleri yanında kürklü, astarlı ve şişme montlar da
+          vardır. Mont çeşitlerinde siyah, yeşil, bej, lacivert ve ekru renkleri öne çıkar. Yazlık ve mevsimlik bu
+          parçaları erkek tişört modelleri ile kombinleyebilirsiniz. Erkek ayakkabı çeşitlerinde sneaker, günlük
+          ayakkabı, koşu ayakkabısı, deniz ayakkabısı ile bot ve çizme modelleri bulunur. Kullanım yerine göre erkek
+          giyim için bu ayakkabılar arasından seçim yapabilirsiniz. Her mevsimin modası erkek sweatshirt V yaka,
+          kapüşonlu yaka ve bisiklet yaka ile öne çıkar. Ürünlerde siyah, lacivert, gri ve beyaz rengin yoğunluğu göze
+          çarpar. Erkek pantolon kot, kumaş, lastikli, slim fit, yüksek bel ve İtalyan kesim seçeneklerine sahiptir.
+          Klasik giyim stiline hitap eden ve kombin halde satılan ürünler bulunur. Erkek takım elbise kullanım avantajı
+          sebebiyle ilgi görür. Günlük hayatında hem şık olmak hem de rahat olmak isteyenler için farklı alternatifler
+          de bulunur. Bu alternatiflere Trendyol erkeklere özel kampanyalar ile uygun fiyata sahip olabilirsiniz.</p>
+      </div>
+      <div>
+        <h2>Erkeklere Özel En Yeni Ürünler Uygun Fiyatlarla Trendyol’da!
+        </h2>
+        <p>Mevsim geçişlerinde tarzınıza erkek mont modelleri ile ufak dokunuşlar yapabilirsiniz. Kış koleksiyonun
+          vazgeçilmezi bu parçaların mevsimlik ve yazlık alternatifleri yanında kürklü, astarlı ve şişme montlar da
+          vardır. Mont çeşitlerinde siyah, yeşil, bej, lacivert ve ekru renkleri öne çıkar. Yazlık ve mevsimlik bu
+          parçaları erkek tişört modelleri ile kombinleyebilirsiniz. Erkek ayakkabı çeşitlerinde sneaker, günlük
+          ayakkabı, koşu ayakkabısı, deniz ayakkabısı ile bot ve çizme modelleri bulunur. Kullanım yerine göre erkek
+          giyim için bu ayakkabılar arasından seçim yapabilirsiniz. Her mevsimin modası erkek sweatshirt V yaka,
+          kapüşonlu yaka ve bisiklet yaka ile öne çıkar. Ürünlerde siyah, lacivert, gri ve beyaz rengin yoğunluğu göze
+          çarpar. Erkek pantolon kot, kumaş, lastikli, slim fit, yüksek bel ve İtalyan kesim seçeneklerine sahiptir.
+          Klasik giyim stiline hitap eden ve kombin halde satılan ürünler bulunur. Erkek takım elbise kullanım avantajı
+          sebebiyle ilgi görür. Günlük hayatında hem şık olmak hem de rahat olmak isteyenler için farklı alternatifler
+          de bulunur. Bu alternatiflere Trendyol erkeklere özel kampanyalar ile uygun fiyata sahip olabilirsiniz.</p>
+      </div>
+      <div>
+        <h2>Erkeklere Özel En Yeni Ürünler Uygun Fiyatlarla Trendyol’da!
+        </h2>
+        <p>Mevsim geçişlerinde tarzınıza erkek mont modelleri ile ufak dokunuşlar yapabilirsiniz. Kış koleksiyonun
+          vazgeçilmezi bu parçaların mevsimlik ve yazlık alternatifleri yanında kürklü, astarlı ve şişme montlar da
+          vardır. Mont çeşitlerinde siyah, yeşil, bej, lacivert ve ekru renkleri öne çıkar. Yazlık ve mevsimlik bu
+          parçaları erkek tişört modelleri ile kombinleyebilirsiniz. Erkek ayakkabı çeşitlerinde sneaker, günlük
+          ayakkabı, koşu ayakkabısı, deniz ayakkabısı ile bot ve çizme modelleri bulunur. Kullanım yerine göre erkek
+          giyim için bu ayakkabılar arasından seçim yapabilirsiniz. Her mevsimin modası erkek sweatshirt V yaka,
+          kapüşonlu yaka ve bisiklet yaka ile öne çıkar. Ürünlerde siyah, lacivert, gri ve beyaz rengin yoğunluğu göze
+          çarpar. Erkek pantolon kot, kumaş, lastikli, slim fit, yüksek bel ve İtalyan kesim seçeneklerine sahiptir.
+          Klasik giyim stiline hitap eden ve kombin halde satılan ürünler bulunur. Erkek takım elbise kullanım avantajı
+          sebebiyle ilgi görür. Günlük hayatında hem şık olmak hem de rahat olmak isteyenler için farklı alternatifler
+          de bulunur. Bu alternatiflere Trendyol erkeklere özel kampanyalar ile uygun fiyata sahip olabilirsiniz.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="popular">
+      <div class="popularBrands">
+        <div class="popularBrands_brands">
+          <strong>
+            Popüler Marka ve Mağazalar</strong>
+          <ul>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+          </ul>
+        </div>
+
+        <div class="popularBrands_categories">
+          <strong>Popüler Sayfalar</strong>
+          <ul>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+            <li>Columbia</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="foot-title">
+        <div class="foot-list">
+          <ul>
+            <li>Who Are We</li>
+            <li>Careers</li>
+            <li>Contact</li>
+            <li>Seller</li>
+          </ul>
+        </div>
+        <div class="foot-list">
+          <ul>
+            <li>Biz Kimiz</li>
+            <li>Kariyer</li>
+            <li>İletişim</li>
+            <li>Trendyol'da Satış</li>
+          </ul>
+        </div>
+        <div class="foot-list">
+          <ul>
+            <li>Kampanyalar</li>
+            <li>Elite Üyelik</li>
+            <li>Hediye Fikirleri</li>
+            <li>Fırsatlar</li>
+          </ul>
+        </div>
+        <div class="foot-list">
+          <ul>
+            <li>Yardım</li>
+            <li>Sıkça Sorulan Sorular</li>
+            <li>Canlı Yardım</li>
+            <li>İade</li>
+          </ul>
+        </div>
+      </div>
+      <div class="foot-img">
+        <img src="https://miro.medium.com/v2/resize:fit:816/1*sSR4mrpijxoQrD7HKu8nDw.png" alt="">
+        <img src="https://bugradizayn.com/static/assets/images/payment.png" alt="">
+        <div class="foot-icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-x-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>C TRNDYOL</p>
+        <div class="copyright-info">
+          <p>Çerezler</p>
+          <p>KVKK</p>
+          <p>DSM Grup</p>
+          <p>Kullanım Koşulları</p>
+        </div>
+      </div>
+    </footer>
+  </div>
 </body>
 
 </html>
