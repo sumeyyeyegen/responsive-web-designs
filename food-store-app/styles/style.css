@@ -131,9 +131,61 @@ header .buttons a i {
   color: #ccc;
 }
 
-.box-container {
+.menu .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+
+.menu .content h1 {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 3rem;
+}
+
+.menu .content h1 span {
+  color: var(--black-color);
+}
+
+.menu .content h1,
+.menu .content h1 span {
+  text-transform: uppercase;
+  font-size: 3.8rem;
+}
+
+.menu .box-container .box {
+  padding: 3rem;
+  background-color: #fff;
+  border-radius: 3rem;
+  min-height: 60rem;
   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: space-between;
 }
 
-.box-container .box .box-head img {}
+.menu .box-container .box .box-head img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.menu .box-container .box .box-head span.menu-category {
+  text-transform: lowercase;
+}
+
+.menu .box-container .box .box-head h3 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 2.7rem;
+}
+
+.menu .box-container .box .box-head .price {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 2.3rem;
+}
+
+.menu .box-container .box .box-head .price span {
+  font-size: 1.2rem;
+  text-decoration: line-through;
+}
