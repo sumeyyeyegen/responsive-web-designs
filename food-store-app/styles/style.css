@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+:root {
+  --text-color: #343334;
+  --main-color: #e94242;
+  --black-color: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .3s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
+  background-color: var(--main-color);
+}
+
+body {
+  height: 200vh;
+}
+
+section {
+  padding: 3.5rem 7%;
+}
+
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 2rem 3.75rem;
+  border-radius: 30rem;
+  font-size: 1.7rem;
+  color: #fff;
+  background-color: var(--black-color);
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 7%;
+  border-radius: 200px;
+  background-color: aqua;
+  padding: 0 7%;
+  box-shadow: 0 0 17px -2px rgba(0, 0, 0, 0.75);
+  position: sticky;
+  top: 4%;
+  z-index: 1000;
+}
+
+nav.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+nav li {
+  list-style: none;
+  padding: 1rem;
+}
+
+nav li a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 1.2rem;
+  padding: 0 0 .5rem 0;
+  border-bottom: 1px solid transparent;
+}
+
+nav li a:hover,
+nav li a.active {
+  border-color: var(--main-color);
+  transition: .5s;
+}
+
+header a img {
+  height: 7em;
+}
+
+
+header .buttons a {
+  height: 2em;
+  display: inline-block;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+header .buttons a i {
+  padding: 10px;
+  font-size: 1.7em;
+  color: var(--text-color);
+  -webkit-text-stroke: 2px;
+}
+
+.main {
+  background: url("../images/home.jpg");
+  min-height: 100vh;
+  margin-top: -115px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.main .content {
+  max-width: 60rem;
+}
+
+.main .content h3 {
+  text-transform: uppercase;
+  font-size: 6rem;
+  color: #fff;
+}
+
+.main .content p {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.8;
+  padding: 1rem 0;
+  color: #ccc;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-container .box .box-head img {}
