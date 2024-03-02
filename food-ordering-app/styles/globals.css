@@ -20,3 +20,18 @@ body {
 .btn-primary {
   @apply text-white px-[30px] py-[8px] rounded-3xl bg-primary hover:opacity-70 transition-all
 }
+
+.centered {
+  left: 0;
+  top: 0;
+}
+
+.centered-deneme {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+span {
+  color: black;
+}
