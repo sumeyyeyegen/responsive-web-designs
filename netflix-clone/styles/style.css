@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --red: #ff2a1b;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 500vh;
+  background-color: #000;
+}
+
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+
+.btn {
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: transparent;
+  padding: .4rem .5rem;
+  border-radius: 5px;
+  font-weight: 400;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn-red-sm {
+  background-color: var(--red);
+}
+
+.btn.btn-red {
+  background-color: #f30f20;
+  padding: 3px 24px;
+  font-size: 20px;
+}
+
+.logo {
+  width: 9em;
+  height: auto;
+}
+
+.main {
+  background-image: url('../images/TR-tr-20231120-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+  height: 75vh;
+  width: 100%;
+  position: relative;
+  object-fit: contain;
+}
+
+
+header {
+  z-index: 10;
+  width: 60vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.box {
+  height: inherit;
+  background-color: rgb(0, 0, 0, .7);
+  position: absolute;
+  width: 100%;
+}
+
+.hero {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  width: inherit;
+}
+
+.hero span:nth-child(1) {
+  font-size: 3rem;
+  font-weight: bolder;
+  padding: 1.5rem 0 1.5rem 0;
+}
+
+.hero span:nth-child(2) {
+  font-size: 1.5rem;
+  display: block;
+  padding: 1.5rem 0 1.5rem 0;
+}
+
+.hero span:nth-child(3) {
+  font-size: 1.3rem;
+  padding: 1.5rem 0 1.5rem 0;
+}
+
+.hero-buttons {
+  padding: 1.5rem 0 1.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.hero-buttons input {
+  border: 1px solid rgba(248, 243, 243, 0.5);
+  border-radius: 5px;
+  background-color: rgb(0, 0, 0, .3);
+  padding: 7px 101px 8px 14px;
+  outline: none;
+}
+
+
+.seperation {
+  background-color: rgb(46, 44, 44);
+  position: relative;
+  z-index: 20;
+  height: 7px;
+  width: 100%;
+}
+
+.first {
+  color: #fff;
+  max-width: 70vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.first>div {
+  padding: 34px 0;
+}
+
+.first div:nth-child(1) {
+  display: flex;
+  flex-flow: column;
+}
+
+.first div:nth-child(2) {
+  display: flex;
+  flex-flow: column;
+}
+
+.first span:nth-child(1) {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.first span:nth-child(2) {
+  font-size: 1.5rem;
+}
+
+
+.secImg {
+  position: relative;
+}
+
+.secImg img {
+  position: relative;
+  z-index: 10;
+  width: 35.625rem;
+}
+
+video {
+  position: absolute;
+  top: 5.5rem;
+  left: 4.5rem;
+}
+
+.fqa {
+  color: #fff;
+  max-width: 70vw;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+.fqa h2 {
+  font-size: 3rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.faqbox {
+  background-color: #2d2d2d;
+  padding: 2rem 1rem;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.faqbox:hover {
+  background-color: #444444;
+  transition: .3s all;
+}
+
+footer {
+  color: #fff;
+  max-width: 70vw;
+  margin: auto;
+}
+
+footer .questions {
+  padding: 34px 0;
+  font-size: 20px;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+}
+
+.footer .footer-item {
+  flex-basis: 9em;
+}
+
+.footer .footer-item a {
+  color: #fff;
+  display: block;
+  padding-top: 1em;
+}
