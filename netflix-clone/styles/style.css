@@ -248,13 +248,14 @@ footer .questions {
   }
 
   .main {
-    height: 100vh;
+    height: 75vh;
   }
 }
 
 @media screen and (max-width:768px) {
   .hero {
     top: 60%;
+    max-width: 90vw;
   }
 
   .hero-buttons {

@@ -1,1 +1,7 @@
-![](https://github.com/sumeyyeyegen/responsive-web-designs/blob/main/netflix-clone/Coder%20Barista-Netflix%20-%20Google%20Chrome%202024-03-17%2003-57-37%20(1).gif)
+![](https://github.com/sumeyyeyegen/responsive-web-designs/blob/main/netflix-clone/images/Coder%20Barista-Netflix%20-%20Google%20Chrome%202024-03-17%2003-57-37%20(1).gif)
+![](https://github.com/sumeyyeyegen/responsive-web-designs/blob/main/netflix-clone/images/screenshot5.PNG);
+![](https://github.com/sumeyyeyegen/responsive-web-designs/blob/main/netflix-clone/images/screenshot6.PNG);
+![](https://github.com/sumeyyeyegen/responsive-web-designs/blob/main/netflix-clone/images/screenshot1.PNG);
+![](https://github.com/sumeyyeyegen/responsive-web-designs/blob/main/netflix-clone/images/screenshot2.PNG);
+![](https://github.com/sumeyyeyegen/responsive-web-designs/blob/main/netflix-clone/images/screenshot3.PNG);
+![](https://github.com/sumeyyeyegen/responsive-web-designs/blob/main/netflix-clone/images/screenshot4.PNG);
