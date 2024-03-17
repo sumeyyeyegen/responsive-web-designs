@@ -215,7 +215,7 @@ footer .questions {
 .footer {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 6rem;
 
 }
 
